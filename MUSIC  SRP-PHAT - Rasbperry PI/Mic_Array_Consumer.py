@@ -2,7 +2,7 @@
 
 import socket
 from webrtcvad import Vad
-from Resources import srp_phat,MUSIC,r_matrix,LPC_freq_estimate
+from algorithms import srp_phat,MUSIC,r_matrix,LPC_freq_estimate
 # import matplotlib.pyplot as plt
 from matplotlib.pyplot import subplots,pause
 from time import time
